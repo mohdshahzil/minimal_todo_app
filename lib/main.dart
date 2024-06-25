@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:minimal_todo_app/pages/home_page.dart';
 
-void main() async{
+void main() async {
   //init the hive
   await Hive.initFlutter();
 
